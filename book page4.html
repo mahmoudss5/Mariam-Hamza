@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="book style4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,500&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,500;1,500&family=Oswald&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<script src="book page.js"></script>
+<script src="https://kit.fontawesome.com/627c1486fe.js" crossorigin="anonymous"></script>
+</head>
+<body class="body4">
+  <header class="header4">
+    <h1>BookLand</h1>
+    <nav class="nav4">
+      <ul class="nav-links4">
+        <li><a href='index.html'>home</a></li>
+        <li><a href='book.html'>books</a></li>
+        <li><a href='aboutus.html'>about</a></li>
+      </ul>
+    </nav>
+    <a class="cta4" href="Feedback.html">
+    <button class="contact-btn4">contact</button></a>
+    <div id="sectheme4">
+      <i class="fa-solid fa-circle-half-stroke" onclick="secondtheme() "></i>
+  </div>
+  <script > 
+         function secondtheme() {
+            document.body.classList.toggle('dark-mode'); 
+        }
+</script>
+  </header>
+  <div class="container4">
+  <div class="bookinf4">
+    <img src="images/IMG_3551.webp" >
+    <h1> atomic habits: an easy & proven way to build good habits & break bad ones </h1>
+   <h3> price: 850 EGP</h3>
+    <a href="checkout.html"> <input type="submit" value="buy now" class="buy-btn4"></a>
+  </div>
+    <br>
+    <div class="aboutbook4">
+     <h2> about the book:</h2>
+     <button id="hideContentBtn" class="hide-btn4">hide content table</button>
+     <script>
+       function hideContent() {
+           var contentTable = document.querySelector('.content-table4');
+           contentTable.classList.toggle('hidden'); 
+       }
+   
+       
+       document.getElementById('hideContentBtn').addEventListener('click', hideContent);
+   </script>
+     
+     <table class="content-table4">
+      <thead>
+          <tr>
+              <th> publisher</th>
+              <th> type</th>
+              <th> language</th>
+              <th> pages</th>
+              <th> best sellers rank</th>
+              <th> customer reviews</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td> james clear(1 January 1900)</td>
+              <td> psychology, self help, nonfiction.</td>
+              <td> english</td>
+              <td> 320</td>
+              <td> 4.8 out of 5 stars (104.337 reviews)</td>
+              <td> #158 in books
+                  #1 in social psychology & interactions
+                  #1 in business processes & infrastructure
+              </td>
+          </tr>
+      </tbody>
+     </table>
+     <p class="a">If you're having trouble changing your habits, the problem isn't you. The problem is your system. Bad habits repeat themselves again and again not because you don't want to change, but because you have the wrong system for change. You do not rise to the level of your goals. You fall to the level of your systems. Here, you'll get a proven system that can take you to new heights.</p>
+     <p class="b">Atomic Habits will reshape the way you think about progress and success, and give you the tools and strategies you need to transform your habits--whether you are a team looking to win a championship, an organization hoping to redefine an industry, or simply an individual who wishes to quit smoking, lose weight, reduce stress, or achieve any other goal.</p>
+    </div>
+    <div class="aboutauther4">
+     <h2>about the auther:</h2>
+     <button id="toggleAuthorBtn" class="hide-btn4">hide auther content</button> 
+     <script>
+      function toggleAuthorInfo() {
+          var authorInfo = document.querySelector('.aboutauther4 p');
+          authorInfo.classList.toggle('hidden');
+      }
+  
+      
+      document.getElementById('toggleAuthorBtn').addEventListener('click', toggleAuthorInfo);
+  </script>
+    <p>James Clear is the author of "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones"
+
+    He writes about habits, decision-making, and continuous improvement at jamesclear.com. His website receives millions of visitors each month and hundreds of thousands subscribe to his popular email newsletter.
+
+    His work has appeared in the New York Times, Entrepreneur, Time, and on CBS This Morning. He is a regular speaker at Fortune 500 companies and his work is used by teams in the NFL, NBA, and MLB.</p>
+    </div>
+    <br>
+   <div class="ifram4">
+     <h2>Why habits are the “compound interest”of self-improvement</h2>
+     <iframe src="https://www.youtube.com/embed/U_nzqnXWvSo?si=gs6yso-w_L3wIO_t" width="560" height="315" allowfullscreen></iframe>
+   </div>
+   <div class="audio4">
+     <h2>here is an audio summary about atomic habits:</h2>
+     <audio controls>
+         <source src="images/Atomic Habits Summary 📖 20 Lessons - James Clear.mp3">
+     </audio>
+   </div>
+   <br>
+   <div class="video4">
+     <h2> is atomic habits worth the hype?</h2>
+     <video width="400" height="300" controls>
+         <source src="images/Is Atomic Habits Worth The Hype_ @ImanGadzhi (1).mp4">
+     </video>
+   </div>
+  </div>
+   
+</body>
+</html>

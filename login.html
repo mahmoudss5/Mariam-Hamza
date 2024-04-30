@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="180 draga is a student activity"/>
+    <title>book store</title>
+    <link rel="stylesheet" href="test1.css">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Login</title>
+</head>
+<body class="body1">
+<div class="box1">
+    <h1 class="font1">Login</h1>
+    <form onsubmit="return validateForm()" action="index.html" target="_blank">
+        <input type="text" id="username" placeholder="username" class="f1" required>
+        <i class='bx bxs-user'></i>
+        <br>
+        <input type="password" id="password" placeholder="password" maxlength="8" class="f1" required>
+        <i class='bx bxs-lock-alt'></i>
+        <span id="username-error" class="error-message">Please enter the username</span>
+        <span id="password-error" class="error-message">Please enter the password</span>
+        <div class="rem1">
+            <input type="checkbox" id="remember" class="rem1"><label for="remember" class="rem1">Remember me</label>
+        </div>
+        <button type="submit" class="b1">Login</button>
+    </form>
+    <p class="p1">Don't have an account? <a href="register.html" class="reg1">Register</a></p>
+</div>
+
+<script>
+    function validateForm() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        var remember = document.getElementById("remember").checked;
+        var usernameError = document.getElementById("username-error");
+        var passwordError = document.getElementById("password-error");
+        var isValid = true;
+
+        // Reset error messages and borders
+        usernameError.style.display = "none";
+        passwordError.style.display = "none";
+        document.getElementById("username").classList.remove("error-border");
+        document.getElementById("password").classList.remove("error-border");
+
+        if (username === "") {
+            usernameError.style.display = "block";
+            document.getElementById("username").classList.add("error-border");
+            isValid = false;
+        }
+        
+        if (password === "") {
+            passwordError.style.display = "block";
+            document.getElementById("password").classList.add("error-border");
+            isValid = false;
+        }
+        
+        if (!isValid) {
+            return false;
+        } else {
+            // If validation passes, you can submit the form or perform other actions here
+            return true;
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" class="html66">
+<head>
+    <script src="/javasscript.js"></script>
+    <link rel="stylesheet" href="/category.css">
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/627c1486fe.js" crossorigin="anonymous"></script>   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>literary book</title>
+</head>
+<body >
+    <section class="sec66">
+        <nav>
+            <div id="dark">
+                <i class="fa-solid fa-moon fa-2xl" onclick="darkmood()"></i>
+            </div>
+            <div class="logo6">
+                <img src="/images/logo.png">
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About us </a></li>
+                <li><a href="checkoutEv2.html">events</a></li>
+                <li><a href="Feedback.html">contact us</a></li>
+                <li><a href="/book.html">Books</a></li>
+            </ul>
+
+            <div class="social_icon6" onclick="toggleSearchForm()">
+                <i class="fa-solid fa-magnifying-glass fa-beat-fade fa-2xl"></i>
+            </div>
+            
+            <div class="search-form66" id="search-form66">
+                <input type="text" id="search-input" placeholder="Search..." style="width: 100%;">
+                <button onclick="searchBookTitles()">Search</button> <!-- Calls searchBookTitles function -->
+            </div>
+        </nav>
+        <div class="main">
+
+            <div class="main_tag6">
+                <h1>الديوان الشعري في الادب<br><span>للمتنبي</span></h1>
+                  <p>
+                هذا الديوان للشاعر المتنبي جمع به جميع قصائده التي قرأها علي الناس يحتوي ما يقارب ال200 قصيده
+            </p></div>
+        </div>
+       
+    <div class="table6">
+        <table class="tablen6">
+            <thead>
+                <tr class="tr6">
+                    <th class="th6"><h1>المؤلف:</h1></th>
+                    <th class="th6" ><h1>المتنبي</h1></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="tr6">
+                    <td class="td6">تاريخ الولادة:</td>
+                    <td class="td6">30 ق.م</td> 
+                </tr>
+                <tr class="tr6">
+                    <td class="td6">تاريخ الوفاة:</td>
+                    <td class="td6">1427 م</td> 
+                </tr>
+                
+                <tr class="tr6">
+                    <td  class="td6" colspan="2"> <h2>  :معلومات إضافية عن المتنبي </h2>  </td>
+                </tr>
+                
+                <tr class="tr6">
+                    <td class="td6"> أشهر القصائد: </td>
+                    <td class="td6">يا فارس الحمى</td>
+                </tr>
+            </tbody>
+        </table>
+</div>
+        <audio autoplay   >
+     <source src="images/audio.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="main_img6">
+            <img src="images/dewan.jpg">
+        </div>
+       <div  class="price6"><h2> 19.57$</h2> </div>
+       <a href="checkout.html"><button class="pricebutton6" onclick="showBuyAlert()"><h1> Buy now</h1> </button> </a>
+    </section>
+    <div class="search-form66" id="search-form66">
+        <input type="text" id="search-input" placeholder="Search..." style="width: 100%;">
+        <button onclick="searchBookTitles()">Search</button> 
+      </div>
+      <h1 class="goo6"> من قصائد الديوان : </h1>
+    <div class="sor6">
+        <div class="book6">
+          <img src="images/kaseda1.jpg" class="cover66" title="حامي الحمي">
+          <div class="book-title-box">
+            <h3 class="book-title">حامي الحمي</h3>
+          </div>
+        </div>
+        <div class="book6">
+            <img src="images/kaseda2.jpg" class="cover66" title="الا كل ماشيه الخيزلي">
+            <div class="book-title-box">
+              <h3 class="book-title">الأ كل ماشيه الخيزلي</h3>
+            </div>
+          </div>
+      
+        <div class="book6">
+          <img src="images/kaseda3.jpg" class="cover66" title="نهاك عن الغوايا ">
+          <div class="book-title-box">
+            <h3 class="book-title">نهاك عن الغوايا </h3>
+          </div>
+        </div>
+        <div class="book6">
+            <img src="images/kaseda4.jpg" class="cover66" title="ارق علي ارق ">
+            <div class="book-title-box">
+              <h3 class="book-title">أرق علي أرق</h3>
+            </div>
+          </div>
+      </div>
+    <div class="video6">
+         <p><h1> من أشهر قصائد المتنبي:</h1></p>
+        <iframe 
+            src="https://www.youtube.com/embed/9c1IrQwfYFM?si=o0eJ8ELpY9xYcpLN" 
+            width="560" 
+            height="315" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>  
+   <div class="video6">
+    <h1>:من القصائد الاكثر انتشارا أيضا </h1>
+    <video src="images/video.mp4" controls></video>
+   </div>
+
+    <hr >
+     <div class="contact6">
+    <h1> contact us with: </h1></div>
+    <div class="icoon6">
+    <i class="fa-brands fa-facebook fa-3xl" style="color: #74C0FC;"></i>
+    <i class="fa-brands fa-discord"></i>
+    <i class="fa-brands fa-twitter" style="color: #74C0FC;"></i>
+    </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html class="page_5">
+
+<head>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body_5">
+    <div class="Nheader_5">
+        <header>
+            <nav class="Nnav_5">
+                <a class="Bname_5" href="index.html"><h1>Book Store.</h1></a>
+                <div class="search">
+                    <input type="text" placeholder="search" />
+                    <div class="symbol">
+                      <svg class="cloud">
+                        <use xlink:href="#cloud" />
+                      </svg>
+                      <svg class="lens">
+                        <use xlink:href="#lens" />
+                      </svg>
+                    </div>
+                  </div>
+                  <!-- SVG -->
+                  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" id="cloud">
+                      <path d="M31.714,25.543c3.335-2.17,4.27-6.612,2.084-9.922c-1.247-1.884-3.31-3.077-5.575-3.223h-0.021
+                      C27.148,6.68,21.624,2.89,15.862,3.931c-3.308,0.597-6.134,2.715-7.618,5.708c-4.763,0.2-8.46,4.194-8.257,8.919
+                      c0.202,4.726,4.227,8.392,8.991,8.192h4.873h13.934C27.784,26.751,30.252,26.54,31.714,25.543z" />
+                    </symbol>
+                    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="lens">
+                      <path d="M15.656,13.692l-3.257-3.229c2.087-3.079,1.261-7.252-1.845-9.321c-3.106-2.068-7.315-1.25-9.402,1.83
+                      s-1.261,7.252,1.845,9.32c1.123,0.748,2.446,1.146,3.799,1.142c1.273-0.016,2.515-0.39,3.583-1.076l3.257,3.229
+                      c0.531,0.541,1.404,0.553,1.95,0.025c0.009-0.008,0.018-0.017,0.026-0.025C16.112,15.059,16.131,14.242,15.656,13.692z M2.845,6.631
+                      c0.023-2.188,1.832-3.942,4.039-3.918c2.206,0.024,3.976,1.816,3.951,4.004c-0.023,2.171-1.805,3.918-3.995,3.918
+                      C4.622,10.623,2.833,8.831,2.845,6.631L2.845,6.631z" />
+                    </symbol>
+                  </svg>  
+                <ul class="Nmenu_5">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="book.html">Books</a></li>
+                    <li><a href="checkoutEv2.html">Event</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="Feedback.html">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="feedback-container_5">
+        <h1>Give Us Your Valuable Feedback</h1>
+        <p class="pc_5">Your Feedback is very important to Us</p>
+        <div class="StarBox_5">
+            <button class="btnE_5" onclick="showfeedback()">🥰</button>
+            <button class="btnE_5" onclick="showfeedback()">&#128515;</button>
+            <button class="btnE_5" onclick="showfeedback()">&#128519;</button>
+            <button class="btnE_5" onclick="showfeedback()">&#128531;</button>
+            <button class="btnE_5" onclick="showfeedback()">&#128532;</button>
+            <button class="btnE_5" onclick="showfeedback()">&#128545;</button>
+        </div>
+        <p class="p_5">What You Want To Say?</p>
+        <textarea id="textarea_5" cols="20" rows="5" required></textarea>
+        <p class="p_5">Are You Want To Share This Publickly?</p>
+        <div class="RadioBtn_5">
+            <div class="OneBtn_5">
+                <input type="radio" name="one" id="yes"/>
+                <label>Yes</label>
+            </div>
+            <div class="OneBtn_5">
+                <input type="radio" name="one" id="no"/>
+                <label>NO</label>
+            </div>
+        </div>
+        <div class="info-field_5">
+            <div class="name_5">
+                <label>
+                    <input class="input_5" type="text"/>
+                    <span>Name</span>
+                </label>
+            </div>
+            <div class="email_5">
+                <label>
+                    <input class="input_5" type="email"/>
+                    <span>Email Address</span>
+                </label>
+            </div>
+        </div>
+        <div class="accept_5">
+            <input type="radio" />
+            <label>I Accept The <a href="#">term and conditions</a></label>
+        </div>
+        <div class="SendBtn_5">
+            <button class="btn_5" onclick="showfeedback()">Send</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

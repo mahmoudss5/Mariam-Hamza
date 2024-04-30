@@ -1,0 +1,127 @@
+.body22{
+   background-color: white;
+   color:white;
+}
+
+.test22{
+    width: 1000px;
+    height: 1700px;
+    border: 1px solid gray;
+    background-image: url(images/8163e3d649f2fe0ed918fed693fd090c.jpg);
+    background-size: 100%;
+    margin: auto;
+}
+.size22{
+    text-align: center;
+}
+.wikipedia22{
+    font-size: x-large;
+    color: white;
+}
+.th22{
+    background-color: dimgray;
+    height: 40px;
+    color: white;
+    width: 100px;
+}
+.td22{
+    background-color: rgb(74, 74, 155);
+    height: 40px;
+    text-align: center;
+    color: white;
+    width: 100px;
+}
+.iframe22{
+    font-size: 25px;
+}
+
+
+
+.body2{
+    background-color: white;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-box2{
+    background-color: #074173;
+    position: relative;
+    justify-content: center;
+    width: 400px;
+    height:700px;
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.form-box2 h2{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+.form-box2 .input-box2 {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid white;
+}
+
+.form-box2 .input-box2 input {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 20px 0 5px;
+    color: white;
+    font-size: 16px;
+}
+input::placeholder{
+    color: white;
+
+}
+.btn2{
+    color: white;
+    background-color:#84e732;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+.group2 p{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px
+}
+.group2 a{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+ .input-box2 i {
+    position: absolute;
+    color: white;
+    top: 13px;
+    right: 0;
+}
+#result2{
+    color:#5debd7;
+    font-weight: 600;
+    position: relative;
+    top: 25px;
+}
+

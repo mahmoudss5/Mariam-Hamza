@@ -1,0 +1,229 @@
+.body4{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .nav-links4 a,
+  .contact-btn4,
+  .cta4{
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .header4{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 10px 5%;
+  }
+  .nav-links4{
+    list-style: none;
+  }
+  .nav-links4 li{
+    display:inline-block;
+    padding: 0px 20px;
+  }
+  .nav-links4 li a{
+    transition: all0.3s ease 0s;
+  }
+  .nav-links4 li a:hover{
+  color: #d1bb9e;
+  }
+  .contact-btn4{
+    padding: 9px 25px;
+    background-color:#d1bb9e;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all0.3s ease 0s;
+  }
+  .contact-btn4:hover{
+    background-color: #ffffff;
+  }
+  .container4{
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background: linear-gradient(180deg,#d1bb9e,rgb(255, 255, 255)); 
+    padding-bottom: 40px;
+  }
+  
+  .bookinf4{
+    position: relative;
+    margin-top: 25px;
+    text-align: center;
+    background: linear-gradient(180deg,#d1bb9e,rgb(255, 255, 255));
+    height: 900px;
+    border-radius: 10px;
+  } 
+  .bookinf4 img{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    vertical-align: middle;
+    filter: drop-shadow(0px 0px 5px grey);
+  }
+  .bookinf4 h1{
+    text-transform: capitalize;
+    padding-right: 27px;
+    padding-left: 27px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: -1px;
+  }
+  .bookinf4 h5{
+    text-transform: capitalize;
+  }
+  .buy-btn4{
+    width:25%;
+    padding: 10px;
+    font-size: 17px;
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+    margin-top: 5px;
+    cursor:pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: 0.25s ease;
+    border: none;
+  }
+  .buy-btn4:hover{
+    font-size: 18px;
+  }
+  .content-table4{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px ;
+    overflow: hidden;
+    box-shadow: 0 0 20px grey;
+   
+  }
+  .content-table4 thead tr{
+    background-color: #d1bb9e;
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  .content-table4 th,
+  .content-table4 td{
+    padding: 12px 15px;
+    transition: 0.25s ease;
+  
+  }
+  .content-table4 th:hover{
+    font-size: larger;
+
+  }
+  .content-table4 tbody tr{
+    border-bottom: 1px solid #dddddd;
+    background-color: beige;
+    text-transform: capitalize;
+  }
+  .aboutbook4 h2{
+    text-transform: capitalize;
+    padding-right: 27px;
+    padding-left: 27px;
+    text-align:left;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: -1px;
+  }
+  .aboutbook4 .a{
+    font-size: 18px;
+    padding-right: 27px;
+    padding-left: 27px;
+    line-height: 150%;
+  }
+  .aboutbook4 .b{
+    font-size: 18px;
+    padding-right: 27px;
+    padding-left: 27px;
+    line-height: 150%; 
+  }
+  .aboutauther4 h2{
+    text-transform: capitalize;
+    padding-right: 27px;
+    padding-left: 27px;
+    text-align:left;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: -1px;
+  }
+  .aboutauther4 p{
+    font-size: 18px;
+    padding-right: 27px;
+    padding-left: 27px;
+    line-height: 150%;  
+  }
+  .ifram4 h2{
+    text-transform: capitalize;
+    padding-right: 27px;
+    padding-left: 27px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: -1px;
+  }
+  .ifram4 iframe{
+    align-items: center;
+    overflow-clip-margin: content-box !important;
+    margin-left: 150px;
+  }
+  .audio4 h2{
+    text-transform: capitalize;
+    padding-right: 27px;
+    padding-left: 27px;
+    text-align: center;
+    font-size: 25px;
+  }
+  .audio4 audio{
+    text-align: center;
+    margin-left: 275px;
+    box-shadow:0 0 20px grey;
+    border-radius: 25px;
+} 
+.video4 h2{
+    text-transform: capitalize;
+    padding-right: 27px;
+    padding-left: 27px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: -1px;
+}
+.video4 video{
+    text-align: center;
+    overflow-clip-margin: content-box !important;
+    margin-left:225px;
+}
+
+  #sectheme{
+    cursor: pointer;
+  }
+  body.dark-mode {
+    background-color: #412804; /* Dark background */
+    color: rgb(116, 98, 0);          /* Light text */
+}
+.hidden{
+  display: none;
+}
+.hide-btn4{
+  padding: 9px 25px;
+    background-color:#d1bb9e;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all0.3s ease 0s;
+    text-transform: capitalize;
+}
+.hide-btn4:hover{
+  background-color: white;
+}
+.hiddenn{
+  display: none;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Josefin+Sans:ital,wght@0,500;1,500&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,500;1,500&family=Oswald&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+   </head>
+<body class="body44">
+    <header class="header44">
+        <h1>BookLand</h1>
+        <nav class="nav44">
+          <ul class="nav-links44">
+            <li><a href='index.html'>home</a></li>
+            <li><a href='book.html'>books</a></li>
+            <li><a href='aboutus.html'>about</a></li>
+          </ul>
+        </nav>
+        <a class="cta44" href="Feedback.html">
+        <button class="contact-btn44">contact</button></a>
+      </header>
+    <div class="container44">
+        <form action="">
+            <div class="row4">
+                <div class="col4">
+                    <h1 class="titlea4">order confirmation</h1>
+                    <h4 class="billing4"> billing address</h4>
+   
+                    <div class="inputbox4">
+                        <i class="fa-solid fa-user"></i>
+                        <label>full name: </label>
+                        <input type="text" placeholder="First name-Last name" required autofocus>
+                    </div>
+                    <div class="inputbox4">
+                        <i class="fa-solid fa-envelope"></i>
+                        <label> email:</label>
+                        <input type="email" placeholder="example@example">        
+                    </div>
+                    <div class="inputbox4">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <label> address: </label>
+                        <input type="text" placeholder="Apartment-Street-Locality" required>      
+                    </div>
+                    <div class="inputbox4">
+                        <i class="fa-solid fa-city"></i>
+                        <label> city: </label>
+                        <input type="text" placeholder="Cairo,Alex,Giza..." required>            
+                    </div>
+                    <div class="inputbox4">
+                        <i class="fa-solid fa-phone"></i>
+                        <label> phone number: </label>
+                        <input type="text" placeholder="123 456 789 10" required>                      
+                    </div>
+                    <div class="inputbox4">
+                        <i class="fa-solid fa-envelopes-bulk"></i>
+                        <label> post number:</label>
+                        <input type="text" placeholder="12345">    
+                    </div>
+                    <div class="inputbox4">
+                        <h3 class="notes4">additional information</h3>
+                        <i class="fa-solid fa-message"></i><label> order notes(optional):</label>
+                        <input type="text" placeholder="Notes about your orde, e.g, special notes for delivery. ">
+                    </div>
+               
+                </div>
+                <div class="colb4">
+                    <h4 class="titleb4">payment</h4>
+
+
+                    <div class="payment4">
+                        <h3 class="pay"> payment method: </h3>
+                    </div>
+                   <div class="radio4">
+                    <div>
+                        <input class="radioa4" type="radio" name="payment" value="Paypal">
+                        <label> paypal</label>
+                    </div>
+                    <div>
+                        <input class="radiob4" type="radio" name="payment" value="Credit card">
+                        <label> credit card</label>
+                    </div>
+                   </div>
+                    <div class="cards4">
+                        <label> cards accepted: </label>
+                        <img src="images/card_img.png">
+                    </div>
+                 
+                    <div class="inputboxb4">
+                        <label>name on card: </label>
+                        <input type="text" placeholder="Credit card name" required autofocus>
+                    </div>
+                    <div class="inputboxb4">
+                        <label> credit card number:</label>
+                        <input type="number" placeholder="1111 2222 3333 4444" required>
+                    </div>
+                    <div class="inputboxb4">
+                        <label>exp month: </label>
+                        <input type="text" placeholder="January" required>
+                    </div>
+                    <div class="inputboxb4">
+                        <label>exp year: </label>
+                        <input type="number" placeholder="2024"  min="2000" max="2100" required>
+                    </div>
+                    <div class="inputboxb4">
+                        <label> CVV: </label>
+                        <input type="text" placeholder="1234" required>
+                    </div>
+               
+                   
+                 </div>
+             
+                   
+            </div>
+            <button class="submit-btn4" onclick= "checkout  ()">checkout</button>
+            <script>
+                function checkout() {
+                    window.alert("Your details have been successfully submitted.Thanks"); // Message displayed in the alert
+                }
+                </script>
+        </form>
+       
+    </div>
+</body>
+</html>

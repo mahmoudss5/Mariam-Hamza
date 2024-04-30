@@ -1,0 +1,102 @@
+<!DOCTYPE html> 
+<head>
+    <link rel="stylesheet" type="text/css" href="CSSfile.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <audio id="myAudio" src="images/audio8.wav"></audio>
+<script src="JSfile.js"></script>
+
+</head>
+
+<body>
+
+    <body class="task81">
+        <header class="t88">
+            <nav class="navbar8">
+                  <a class="logo8" href="index.html"><h1 class="logo">BookLand</h1></a>
+                  <ul class="menulink8">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="book.html">Books</a></li>
+                    <li><a href="checkoutEv2.html">Event</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="Feedback.html">Contact us</a></li>
+                  </ul>
+                </nav>
+                
+            </header>
+     <form id="myForm" onsubmit=" return validateForm() && validateForm1()">
+            <div class="containert8">
+                 
+                <label for="fname"><h2 class="t8">First name:</h2></label>
+                <input type="text" id="fname" name="fname" placeholder="John"><br><br>
+              
+                <label for="lname"><h2 class="t8">Last name:</h2></label>
+                <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
+              
+                <label for="em"><h2 class="t8">Email:</h2></label>
+                <input type="email" id="em" name="em" placeholder="example@example.com">
+                <span id="emailError" class="error"></span><br><br>
+              
+                <label for="pwd"><h2 class="t8">Password:</h2></label>
+                <input type="password" id="pwd" name="pwd" placeholder="*********">
+                <span id="passwordError" class="error"></span><br><br>
+              
+                <label for="phone"><h2 class="t8">Phone number:</h2></label>
+                <input type="tel" id="phone" name="phone" placeholder="+201234567890"><br><br>
+              
+                <label for="select-time"><h2 class="t8">Select Time:</h2></label>
+                <select class="select-time8" name="select-time">
+                  <option class="t8" value="12:00 PM">12:00 PM</option>
+                  <option class="t8" value="04:00 PM">04:00 PM</option>
+                  <option class="t8" value="07:00 PM">07:00 PM</option>
+                  <option class="t8" value="05:00 PM">05:00 PM</option>
+                </select><br><br>
+              
+                <label for="tickets"><h2 class="t8">Ticket/s(max.3):</h2> </label>
+                <input class="ti" type="number" id="tickets" name="tickets" placeholder="Number of tickets" min="1" max="3"><br><br>
+              
+                <div class="payme8">
+                  <h2 class="t8">Choose your payment method:</h2><br>
+                  <input class="t8" type="radio" id="cc" name="method" value="Credit card">
+                  <label for="cc"><h3 class="t8m">Credit card</h3></label><br>
+                  <div class="cred8">
+                    <label for="cname8"><h4 class="t8">Name on Card:</h4></label>
+                    <input class="t8" type="text" id="cname8" name="cardname" placeholder="John More Doe"><br>
+                    <label for="ccno8"><h4 class="t8">Credit card number:</h4></label>
+                    <input class="t8" type="text" id="ccno8" name="cardnumber" placeholder="1111-2222-3333-4444"><br>
+                    <label for="expm8"><h4 class="t8">Exp Month:</h4></label>
+                    <input class="t8" type="text" id="expm8" name="expmo8" placeholder="September"><br>
+                    <label for="cvv"><h4 class="t8">CVV:</h4></label>
+                    <input class="t8" type="text" id="cvv" name="cvv" placeholder="352"><br>
+                  </div><br>
+                  <input class="t8" type="radio" id="ca" name="method" value="Cash">
+                  <label for="ca"><h3 class="t8m">Cash</h3></label><br>
+                </div><br>
+              </div>
+              <input onclick="playAudio()" class="submit8" type="submit" value="Submit"> 
+              </form>
+        
+               
+                <br>
+                
+                <footer class="t8">
+                    <div class="footerContainert8">
+                        <div class="socialIcons8">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                            <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                        <div class="footerNav8">
+                            <ul><li><a href="index.html">Home</a></li>
+                                <li><a href="book.html">Books</a></li>
+                                <li><a href="aboutus.html">About</a></li>
+                                <li><a href="Feedback.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        </div>
+                        
+                </footer>
+                </body>
+                <!-- task 8 page 2 end -->
+                        

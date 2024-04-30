@@ -1,0 +1,203 @@
+.body44{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .contact-btn44,.cta44,.nav-links44 a{
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .header44{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 10px 5%;
+  }
+  .nav-links44{
+    list-style: none;
+  }
+  .nav-links44 li{
+    display:inline-block;
+    padding: 0px 20px;
+  }
+  .nav-links44 li a{
+    transition: all0.3s ease 0s;
+  }
+  .nav-links44 li a:hover{
+  color:rgb(152, 152, 206);
+  }
+  .contact-btn44{
+    padding: 9px 25px;
+    background-color:rgb(140,209,228);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease 0s;
+    font-size: 17px;
+  }
+  .contact-btn44:hover{
+    background-color:rgb(152, 152, 206);
+    font-size: 18px;
+  }
+  
+  
+  
+  .container44{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg,rgb(177,177,235),rgb(140,209,228)); 
+    padding-bottom: 40px;
+   
+   
+  }
+  .container44 form{
+    padding: 25px;
+    width: 550px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.301);
+    border-radius: 40px;
+    background-color: #ffffff3d;
+    
+    
+  }
+  
+  .row4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .col4{
+   flex:1 1 150px;
+  }
+  
+  .titlea4{
+    font-size: 20px;
+    color: #000000;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 23px;
+  }
+  .billing4{
+    font-size: 20px;
+    color: #252525;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .inputbox4,
+  .inputboxb4{
+    margin: 15px 0;
+  }
+  
+  .inputbox4 label{
+    margin-bottom: 10px;
+    display: block;
+    text-transform: capitalize;
+    font-size:20px ;
+    left: 20px;
+    position: relative; 
+  }
+  
+  .inputboxb4 label{
+    margin-bottom: 25px;
+    display: block;
+    text-transform: capitalize;
+    font-size:18px ; 
+  }
+  
+  .notes4{
+    font-size: 15px;
+    color: #000000;
+    padding-bottom: 5px;
+    text-transform:capitalize;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .inputbox4 input,
+  .inputboxb4 input{
+    width: 100%;
+    border: 1px solid #ffffff;
+    padding: 10px 3px;
+    font-size: 15px;
+    text-transform: none;
+  
+  }
+  
+  .fa-user,
+  .fa-envelope,
+  .fa-location-dot,
+  .fa-city,
+  .fa-phone,
+  .fa-envelopes-bulk,
+  .fa-message{
+   position:relative;
+   top:25px;
+  }
+  .titleb4{
+    font-size: 20px;
+    color: #252525;
+    padding-top: 55px ;
+    text-transform: uppercase;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .payment4{
+    font-size: 15px;
+    color: #000000;
+    text-transform: capitalize;
+  }
+  
+  .radio4{
+    size: 20px;
+    color:#000;
+  }
+  
+  .cards4{
+    margin-top: 10px;
+  
+  }
+  
+  .cards4 img{
+    height: 35px;
+    margin-top:5px;
+    filter: drop-shadow(0px 0px 5px grey);
+    border-radius: 5px; 
+  }
+  
+  .cards4 label{
+    margin-bottom:10px ;
+    display: block;
+    text-transform: capitalize;
+  }
+  
+  .submit-btn4{
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    background: rgb(74, 176, 204);
+    color: #ffffff;
+    margin-top: 5px;
+    cursor:pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    border: none;
+  }
+  
+  .submit-btn4:hover{
+    background: rgb(152, 152, 206);
+    font-size: 18px;
+  }
+
+
+    
+
+

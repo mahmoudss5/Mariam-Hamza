@@ -1,0 +1,280 @@
+
+.body11
+{
+    background-color: #F0F0F0;
+    height:600px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:lighter;
+    font-style:normal;
+    color:rgb(9, 59, 82);
+}
+.nav1 {
+    background-color: #213555;
+    position: relative;
+    bottom:10px;
+    right:10px;
+    width:1520px;
+    
+}
+.book11
+{
+    position:absolute;
+    left:1300px;
+    font-size:19px;
+    color: #d8c77b;
+
+}
+.nav1 .ul1 {
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.nav1 .ul1 .li1 {
+    display: inline-block; /* Display list items horizontally */
+}
+
+.nav1 .ul1 .li1 .a1 {
+    display: block; /* Make anchor tags full width of the list items */
+    color: white; /* Text color */
+    padding: 15px 20px; /* Padding around text (top/bottom, left/right) */
+    text-decoration: none; /* Remove default underline */
+    font-size: 17px;
+    transition:0.25s ease;
+}
+
+.nav1 .ul1 .li1 .a1:hover {
+    background-color: #d8c77b; 
+    font-size:18px;
+}/* Background color on hover */ 
+
+.head1
+{
+    margin-left:800px;
+    margin-top:200px;
+    width:500px;
+    height:200px;
+    font-size: 15px;
+
+}
+.price1
+{
+    width:fit-content;
+    margin-left:800px;
+    margin-top:20px;
+    font-size: 20px;
+}
+.add1
+{
+    border-radius:25px;
+    outline:none;
+    border:solid #213555;
+    width: 110px;
+    height: 50px;;
+    background-color: #213555;
+    color:#F0F0F0;
+    box-shadow:0 0 20px #4F709C;
+    transform:translate(50%,50%);
+    position: relative;
+    right:45px;
+
+}
+.flex1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:620px;
+    padding-left:20px;
+    backdrop-filter:(70px);
+    margin-left:100px;
+    position: relative;
+    bottom:300px;
+    font-size: small;
+    background-color:#213555;
+    color: #F0F0F0;
+    border-radius:20px;box-shadow:0 0 20px #e7d378;
+    font-weight: 100;
+
+    
+}
+
+.flex11
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:550px;
+    height:310px;
+    padding-left:20px;
+    margin-left:800px;
+    position: absolute;
+    top:735px;
+    font-size: small;
+    background-color:#213555;
+    color: #F0F0F0;
+    border-radius:20px;
+    box-shadow:0 0 20px #e2c850;
+    font-weight:100;
+}
+
+    
+.photo1
+{    
+    
+    display: flex;
+    margin-left:300px;
+    position:relative;
+    bottom:400px;
+    box-shadow:0 0 40px #4F709C;
+    border: 7px #213555 ;
+
+}
+.table1
+{
+    width:500px;
+    padding:50px;
+    color: #F0F0F0;
+    position: relative;
+    top:350px;
+    
+}
+.td111
+{
+    background-color: #b9bbbd;
+    text-align: center;color:white;
+}
+.td111:hover {
+    background-color:#213555;
+
+}
+.td1
+{
+    padding:15px;
+    background-color:#2a3c58;
+    border:1px solid #2a3c58;
+    
+}
+.td11
+{
+    background-color:#e7d378;
+    color: #2a3c58;
+    font-weight: bold;
+    text-align: center;
+    padding:15px;
+
+
+}
+.video1
+{
+    position: relative;
+    bottom:530px;
+    left:350px;
+
+}
+.iframe1
+{
+    position:relative;
+    bottom:460px;
+    left:800px;
+    box-shadow:0 0 10px #e7d378;
+
+}
+.audio1
+{
+    position: relative;
+    bottom:300px;
+    left:-100px;
+    background-color: #2a3c58;
+    width:450px;
+    border:5px solid #2a3c58;
+    border-radius:25px;
+    box-shadow:0 0 10px #4F709C;
+    margin-bottom:0;
+}
+.foot1
+{
+    position: relative;
+    bottom:380px;
+    height:150px;
+}
+.foot1
+{
+    padding-left:400px;
+    background-color: #d8c77b;
+    position:relative;
+    bottom:-20px;
+    left:-10px;
+    margin-top:0;
+    margin-bottom:0;
+    width:1121px;
+    height:200px;
+    
+}
+.ph1
+{
+    
+    position: absolute;
+    top: 25px;
+    width:100px;
+    height:120px;
+    left: 50px;
+}
+.foot1 p
+{
+    left: -150px;
+    position: relative;
+    bottom:-40px;
+    font-size:19px;
+    width:300px;
+    height:10px;
+    text-decoration: none;
+}
+.bn_1 {
+    position: absolute;
+    right: 160px;
+    bottom: 40px;
+    width: 150px;
+    height: 50px;
+}
+#icon1_1 {
+    position: absolute;
+    right: 150px;
+    height: 40px;
+    width: 40px;
+}
+#icon2_1 {
+    position: absolute;
+    right: 225px;
+    height: 40px;
+    width: 40px;
+}
+#icon3_1 {
+    position: absolute;
+    right: 300px;
+    height: 40px;
+    width: 40px;
+}
+.fake1
+{
+    color:black;
+    text-decoration: none;
+}
+.about1
+{
+    color:black;
+    text-decoration:none;
+}
+#dark1{
+    cursor: pointer;
+    position: relative;
+    bottom:2340px;
+    
+ } 
+ body,.dark-mode {
+    background-color:rgb(113, 160, 179); 
+    color:  #F0F0F0;
+    
+    
+}
